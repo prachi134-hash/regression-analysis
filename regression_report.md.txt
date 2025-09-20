@@ -1,0 +1,28 @@
+# Regression Analysis Report
+
+## Introduction
+This project uses the `mtcars` dataset to study the relationship between **Car Weight (`wt`)** and **Miles per Gallon (`mpg`)**.  
+The goal is to determine whether heavier cars consume more fuel.
+
+---
+
+## Code
+The complete R script is available in [regression_analysis.R](regression_analysis.R).
+
+---
+
+## Output
+
+### 🔹 Model Summary
+- Intercept = **37.29**
+- Slope (wt) = **-5.34**
+- R² = **0.75** (strong fit)
+- p-value < **0.001** (significant)
+
+### 🔹 Correlation
+`cor(mpg, wt) = -0.8677` → strong negative correlation.
+
+### 🔹 Visualization
+The plot shows a **negative linear relationship** between car weight and MPG.
+
+![Regression Plot](regression_plot.png)
